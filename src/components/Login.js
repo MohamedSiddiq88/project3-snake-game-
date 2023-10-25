@@ -38,10 +38,11 @@ function Login() {
   };
 
   return (
-    <div className="container mt-5 login_container">
+    <div className='login_container'>
+<div className="container mt-5 ">
       <div className="row">
         <div className="col-md-6 mx-auto">
-          <div className="card">
+          <div className="card login_card">
             <div className="card-body">
               <div>
                 <h5 className="card-title">User Login</h5>
@@ -92,6 +93,8 @@ function Login() {
         </div>
       </div>
     </div>
+    </div>
+    
   );
 }
 

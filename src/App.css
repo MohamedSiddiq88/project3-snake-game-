@@ -98,6 +98,37 @@ white-space: pre-wrap;
   width: 100%;
   height: fit-content;
 }
+.login_container,
+.sign_up_container{
+position: absolute;
+height: 100vh;
+width: 100vw;
+/* background-color: #040405; */
+background-image: url('C:\Users\91887\OneDrive\Desktop\full-stack Projects\project3\project3\src\components\pixel1.gif');
+background-size: cover;
+}
+.login_card,
+.sign_up_card{
+  border: 1px solid #950afe;
+background-color: #001900;
+}
+
+.login_card input,
+.sign_up_card input{
+background-color: #040405;
+border: 1px solid #950afe;
+}
+
+.login_card p,
+.sign_up_card p,
+.login_card h5,
+.sign_up_card h5,
+.login_card label,
+.sign_up_card label
+{
+  color:white;
+
+}
 
 @media  (min-width:300px) and (max-width:1000px) {
   .game-board{

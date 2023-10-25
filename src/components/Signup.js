@@ -36,10 +36,11 @@ function Signup() {
   };
 
   return (
-    <div className="container mt-5">
+    <div className='sign_up_container'>
+      <div className="container mt-5">
       <div className="row">
         <div className="col-md-6 mx-auto">
-          <div className="card">
+          <div className="card sign_up_card">
             <div className="card-body">
               <div>
               <h5 className="card-title mb-4">User Signup</h5>
@@ -86,6 +87,7 @@ function Signup() {
           </div>
         </div>
       </div>
+    </div>
     </div>
   );
 }
